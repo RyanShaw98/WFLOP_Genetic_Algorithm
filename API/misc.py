@@ -129,7 +129,6 @@ def generic_plot(x, y, title='Avg. Fitness Vs. Generations', xlabel='Generations
 
 def generic_bar(x, y, title='Avg. Fitness Vs. Generations', xlabel='Generations', ylabel='Avg. Fitness', save=False,
                 in_parent=True):
-    print(f"Plotting:\n{x}\nAgainst:\n{y}")
     plt.bar(x, y)
     plt.title(title)
     plt.xlabel(xlabel)

@@ -94,5 +94,5 @@ def test_crossover_rate():
 # run_optimizer()
 
 # test_pop_size()
-test_mutation_rate()
+# test_mutation_rate()
 test_crossover_rate()
